@@ -6,8 +6,6 @@ Validates user-submitted website URLs:
 - Rejects private/local IPs
 - Rejects hostnames that resolve to private/local IP ranges
 
-## Setup
-
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
